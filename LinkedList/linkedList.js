@@ -36,7 +36,7 @@ function LinkedList(){
       if(this.head) this.head.prev = null;
       else this.tail = null
 
-      return NodeValue;
+      return nodeValue;
   }
 
   LinkedList.prototype.removeTail = function() {
