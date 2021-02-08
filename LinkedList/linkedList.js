@@ -42,7 +42,7 @@ function LinkedList(){
   LinkedList.prototype.removeTail = function() {
       if(!this.tail) return null;  
 
-      var nodeValue = this.head.value;
+      var nodeValue = this.tail.value;
       this.tail = this.tail.prev;
 
       if(this.tail) this.tail.next = null;
